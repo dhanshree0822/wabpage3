@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    justify-content: space-between;
+    background:#022d7c;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    color: #fff;
+    display:flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(rgba(0,0,0.5),rgb(0,0,0,0.5)),url(../img/industry.jpeg);
+    background-size:cover;
+}
+.banner h1{
+    margin-top:5%;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.banner h1 span{
+    display: block;
+    font-size: 77px;
+    font-weight: 600;
+}
+.banner aside{
+    padding:20px;
+    border-radius: 7px;
+    text-align: center;
+    background: #022D7C;
+}
+.banner aside input[type],
+.banner aside textarea[name],
+.banner aside button{
+    width: 100%;
+    height: 50px;
+    margin: 7px;
+    text-align:center;
+    margin: 5px;
+}
+.feature{
+    width: 100%;
+    height: auto;
+    display:flex;
+    color:#022D7C;
+    padding: 60px 10px;
+    justify-content: space-between;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 40px;
+    margin-bottom: 7px;
+    padding-left: 30px;
+}
+.feature div img{
+    padding-left: 30px;
+    margin-top:5%;
+    width: 400px;
+    height: 250px;
+}
+.feature div p{
+    padding-left: 30px;
+    width: 400px;
+    height: 250px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align:justify;
+}
+.about{
+    width: 100%;
+    height:250px;
+    color:white;
+    text-align: center;
+    padding: 60px 300px;
+    background:#022d7c;   
+}
+.about  h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+.about  p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.about button{
+    color:#fff;
+    margin-top: 10px;
+    font-weight:bold;
+    padding: 15px 120px;
+    background: #022D7C;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+.intdus{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.intdus .upper,.intdus.lower
+{
+ align-items: center;
+ display: flex;
+}
+.intdus .image,.intdus .contant{
+     width: 50%;
+}
+.intdus .image img h3 p{
+    width:650px;
+    height:500px;
+    font-size:20px;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.upper.image,
+.intdus .contant{
+    width: 50%;
+    padding:5%;
+    font-size: 20px;
+    float:left;
+}
+.intdus .image img{
+    width:640px;
+}
+.lower.image,
+.intdus .contant ,h3 p{
+    width: 50%;
+    padding:5%;
+    font-size: 20px;
+    float: left;
+}
+.intdus .contant 
+.lower.image img
+{
+    width: 50%;
+    padding:5%;
+    float: right;
+}
+footer{
+    width:100vw ;
+    height:70px;
+    text-align:center;
+    margin-top:5%;
+    background-color:#022D7C;
+}
+footer p{
+    color :#fff;
+    padding:20px;
+    font-weight:bolder;
+    font-size: 20px;
+}
+/* @media screen start */
+
+@media screen and (max-width:992px)
+{
+
+    header{
+        padding: 0px 70px;
+    }
+         .banner{
+        padding: 0px 70px;
+    }
+    .banner h1{
+        font-size: 35px;
+    }
+    .banner h1 span{
+        font-size: 66px;  
+    }
+    .banneraside{
+        font-size: 70px;
+    }
+    .banner aside input[type],
+    .banneraside textarea,
+    .banner aside button{
+        height: 35px;
+    }
+    .feature{
+        padding: 30px 70px;
+    }
+    .feature div{
+        width: 260px;
+    }
+    .feature img{
+        width: 260px;
+        height: 190px;
+    }
+    .about{
+        padding: 25px 150px;
+    }
+    .about p{
+        font-weight: 100;
+    }
+    .about button{
+        padding: 7px 90px;
+        margin: 15px;
+    }
+    .intdus{
+        padding: 0px 80px;
+    }
+    .upper .contant{
+       padding: 60px 40px 50px 0px;
+    }
+    .intdus .image img{
+        height: 60px;
+        width: 410px;
+    }
+    footer{
+        height: 60px;
+        margin-top: 40px;
+    }
+    footer p{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    header{
+        padding: 0px 50px;
+        font-size: 13px;
+    }
+    .banner{
+    padding: 0px 50px;
+    height: 450px;
+    }
+    .banner h1{
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .banner h1 span{
+        font-size: 55px;
+    }
+    .banner aside{
+        padding: 10px 22px;
+        margin-left:50px ;
+    }
+    .banner aside h2{
+        font-size: larger;
+    }
+    .banner aside input[type],
+    .banner aside textarea,
+    .banner aside button{
+        margin:5px;
+        height:25px;
+    }
+    .feature{
+        padding: 30px 50px;
+    }
+    .feature div{
+        width: 217;
+    }
+    .feature img{
+        width: 200px;
+        height: 150;
+    }
+    .about{
+        padding: 20px 120px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .about h2{
+        font-size: larger;
+    }
+    .about button{
+        padding: 5px 70px;
+        margin:15px;
+    }
+    .intdus{
+        padding: 0px 50px;
+    }
+    .upper .contant{
+        padding: 25px 0px 20px 40px;
+    }
+    .lower .contant{
+        padding: 25px 40px 20px 0px;
+    }
+    .intdus .image img{
+        height: 200px;
+        width: 300px;
+    }
+    footer{
+        height: 40px;
+        margin-top: 30px
+    }
+    footer p{
+        padding-top: 10px;
+        font-size: 13px;
+    }
+}
+@media screen and(max-width:576px) {
+    header{
+        font-size: 15px;
+        height: 80px;
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+        padding: 0px 50px;
+    }
+    .banner{
+        padding: 30px 50px;
+        height: 550px;
+        display: block;
+        text-align: center;
+    }
+    .banner h1{
+        font-size: 25px;
+        font-weight:normal;
+    }
+    .banner h1 span{
+        font-size: 44px;
+}
+.banner aside{
+    padding: 10px 22px;
+    width: 370px;
+    margin-top:40px;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    margin: 5px;
+    height: 25px;
+}
+.feature{
+    padding: 30px 50px;
+}
+.feature div{
+    width: 145px;
+}
+.feature img{
+    width: 130;
+    height: 130;
+}
+.feature h2{
+    font-size: medium;
+}
+.about{
+    padding: 15px 70px;
+}
+.about p{
+    font-size:12px;
+}
+.about h2{
+    font-size: larger;
+}
+.about button{
+    padding: 2px 40px;
+    
+}
+.intdus{
+    padding: 0px 50px;
+}
+.upper .contant{
+    padding: 20px 40px 20px 0px;
+    font-size: small;
+}
+.lower .contant{
+    padding: 20px 40px 20px 0px;
+    font-size: small;
+}
+.intdus .image img{
+    height: 230px;
+    width: 235px;
+} 
+footer{
+    height: 30px;
+    margin-top: 30px;
+} 
+footer p{
+ padding-top: 10px;
+ font-size: 10px;
+}
+}
+
+/* @media screen end */
